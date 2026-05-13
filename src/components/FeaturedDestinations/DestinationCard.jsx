@@ -32,7 +32,7 @@ const DestinationCard = ({ dest }) => {
         </div>
 
         {/* Bottom */}
-        <div className="absolute bottom-0 left-0 right-0 p-6">
+        <div className="absolute bottom-0 left-0 right-0 p-6 bg-black/20">
           <h3 className="text-white text-3xl font-extrabold leading-tight">
             {dest.name}
           </h3>
