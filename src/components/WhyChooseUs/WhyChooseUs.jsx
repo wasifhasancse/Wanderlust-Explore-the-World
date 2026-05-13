@@ -1,10 +1,10 @@
 import {
-    FiDollarSign,
-    FiHeadphones,
-    FiMap,
-    FiShield,
-    FiStar,
-    FiUsers,
+  FiDollarSign,
+  FiHeadphones,
+  FiMap,
+  FiShield,
+  FiStar,
+  FiUsers,
 } from "react-icons/fi";
 
 const reasons = [
@@ -81,7 +81,7 @@ const WhyChooseUs = () => {
             </span>
           </h2>
           <p className="text-gray-400 mt-4 text-base leading-relaxed">
-            We do the heavy lifting so you can focus on making memories. Here's
+            We do the heavy lifting so you can focus on making memories. Here&apos;s
             what sets Wanderlust apart from the rest.
           </p>
         </div>

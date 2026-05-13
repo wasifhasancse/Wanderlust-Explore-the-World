@@ -1,6 +1,4 @@
-import {
-  FiArrowRight
-} from "react-icons/fi";
+import { FiArrowRight } from "react-icons/fi";
 import DestinationCard from "./DestinationCard";
 
 const destinations = [
@@ -123,9 +121,9 @@ const FeaturedDestinations = () => {
         {/* Bento-style grid */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
           {/* Featured large 1st card — spans 2 rows */}
-            {rest.map((dest) => (
-              <DestinationCard key={dest.id} dest={dest} />
-            ))}
+          {rest.map((dest) => (
+            <DestinationCard key={dest.id} dest={dest} />
+          ))}
         </div>
       </div>
     </section>

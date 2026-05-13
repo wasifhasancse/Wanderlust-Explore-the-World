@@ -4,10 +4,10 @@ import Image from "next/image";
 import { useState } from "react";
 import { FaQuoteLeft } from "react-icons/fa";
 import {
-    FiChevronLeft,
-    FiChevronRight,
-    FiMessageCircle,
-    FiStar,
+  FiChevronLeft,
+  FiChevronRight,
+  FiMessageCircle,
+  FiStar,
 } from "react-icons/fi";
 
 const testimonials = [

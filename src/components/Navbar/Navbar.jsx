@@ -12,7 +12,6 @@ const navLinks = [
 ];
 
 const Navbar = () => {
-
   // title = Wanderlust - Explore the World with Us
   return (
     <nav className="bg-white shadow-md sticky top-0 z-50">
